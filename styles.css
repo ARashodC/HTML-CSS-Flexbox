@@ -1,8 +1,17 @@
 body {
+  background-image: url(BG.png);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: contain;
+  background-attachment: scroll;
   background-color: grey;
   margin: auto;
   width: 90%;
-  border: 4px solid black;
+  /* border: 4px solid black; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
 }
 
 header {
@@ -29,4 +38,9 @@ h2 {
 
 p {
   font-size: 18;
+}
+
+img {
+  max-width: 80%;
+  height: auto;
 }
