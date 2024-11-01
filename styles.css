@@ -27,6 +27,7 @@ header {
 nav {
   display: flex;
   gap: 10px;
+  
 }
 
 main {
@@ -66,4 +67,12 @@ form {
   position: relative;
   left: 60%;
   bottom: 20%;
+}
+
+a:link {
+  color: magenta;
+}
+
+a:visited {
+  color: mediumorchid;
 }
